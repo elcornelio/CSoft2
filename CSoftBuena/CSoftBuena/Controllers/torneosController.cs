@@ -37,6 +37,7 @@ namespace CSoftBuena.Controllers
         }
 
         // GET: torneos/Create
+        [Authorize]
         public ActionResult Create()
         {
             return View();
@@ -59,6 +60,7 @@ namespace CSoftBuena.Controllers
             return View(torneo);
         }
 
+        [Authorize]
         // GET: torneos/Edit/5
         public ActionResult Edit(int? id)
         {
@@ -90,6 +92,7 @@ namespace CSoftBuena.Controllers
             return View(torneo);
         }
 
+        [Authorize]
         // GET: torneos/Delete/5
         public ActionResult Delete(int? id)
         {

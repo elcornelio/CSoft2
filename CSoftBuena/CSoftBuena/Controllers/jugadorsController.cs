@@ -36,6 +36,7 @@ namespace CSoftBuena.Controllers
             return View(jugador);
         }
 
+        [Authorize]
         // GET: jugadors/Create
         public ActionResult Create()
         {
@@ -59,6 +60,7 @@ namespace CSoftBuena.Controllers
             return View(jugador);
         }
 
+        [Authorize]
         // GET: jugadors/Edit/5
         public ActionResult Edit(int? id)
         {
@@ -90,6 +92,7 @@ namespace CSoftBuena.Controllers
             return View(jugador);
         }
 
+        [Authorize]
         // GET: jugadors/Delete/5
         public ActionResult Delete(int? id)
         {
