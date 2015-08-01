@@ -92,6 +92,7 @@ namespace CSoftBuena.Controllers
             return View(torneo);
         }
 
+                
         [Authorize]
         // GET: torneos/Delete/5
         public ActionResult Delete(int? id)
