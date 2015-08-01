@@ -220,6 +220,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\logoCompiteSoft4.png" />
     <Content Include="CSoftEntity.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>CSoftEntity.edmx</DependentUpon>

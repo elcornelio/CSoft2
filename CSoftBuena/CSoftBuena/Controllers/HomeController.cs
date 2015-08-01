@@ -15,14 +15,14 @@ namespace CSoftBuena.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Descripción aplicación.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Página de contacto.";
 
             return View();
         }
